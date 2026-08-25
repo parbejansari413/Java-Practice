@@ -12,7 +12,11 @@ public class StudentDetails {
         System.out.println("Name: " + name );
         System.out.println("Age: " + age);
         System.out.println("CGPA: " + cgpa);
-        System.out.println("Grade:" + grade);         
+        System.out.println("Grade:" + grade);  
+        
+        cgpa = 8.00;
+
+        System.out.println("Updated CGPA: " + cgpa);
     }
 
 }
